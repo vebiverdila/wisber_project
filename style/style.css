@@ -1,0 +1,51 @@
+*{
+     margin: 0;
+     padding: 0;
+     font-family: sans-serif;
+}
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(https://images.pexels.com/photos/210205/pexels-photo-210205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    background-position: center;
+}
+.banner1{
+    width: 100%;
+    height: 100vh;
+    background-image:url(https://images.pexels.com/photos/210205/pexels-photo-210205.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2);
+    background-size: cover;
+    background-position: center;
+}
+.content{
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+}
+
+.logo{
+    width: 550px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.center{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    border-radius: 20px;
+}
+.center h1 {
+    text-align: center;
+    pad: 0 0 20px 0;
+
+}
+.center form{
+    padding: 0 40px;
+    box-sizing: border-box;
+}
