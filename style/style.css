@@ -17,6 +17,11 @@
     background-size: cover;
     background-position: center;
 }
+.banner button {
+    justify-content: center;
+    align-items: center;
+}
+
 .content{
     width: 100%;
     position: absolute;
